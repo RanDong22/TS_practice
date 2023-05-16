@@ -20,4 +20,4 @@ In compile time {} doesn't have Object's members and Object has more strict beha
 
 ## [Index Signatures](https://www.typescriptlang.org/docs/handbook/2/objects.html#index-signatures)
 
-TODO:
+索引签名不能构造成字符串字面量类型，因为它没有名字，而其他索引可以。
